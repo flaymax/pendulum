@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Пружинный маятник</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        body {
+            background-color: #f0faef;
+        }
+
+        div#total {
+            width: 780px;
+            height: 420px;
+        }
+
+        div#canvas {
+            width: 510px;
+            height: 420px;
+        }
+
+        div#panel {
+            left: 510px;
+            width: 280px;
+            height: 420px;
+        }
+
+        input[type="text"] {
+            left: 170px;
+            width: 60px;
+        }
+
+        button {
+            left: 10px;
+            width: 120px;
+        }
+
+        .pos1 {
+            left: 10px;
+        }
+    </style>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <h1>Пружинный маятник</h1>
+
+    <div id="total">
+        <div id="canvas"><canvas id="cv" width=410 height=420></canvas>
+
+        </div>
+        <div id="panel">
+            <div style="top: 10px;"><button id="bu1" style="background-color: #4b77a8;"></button></div>
+            <div style="top: 50px;"><button id="bu2" style="background-color: #e87d61;"></button></div>
+            <div style="top: 130px;"><span class="pos1" id="ipDa"></span><input type="text" id="ipDb"><span class="pos3" id="ipDc"></span></div>
+            <div style="top: 160px;"><span class="pos1" id="ipMa"></span><input type="text" id="ipMb"><span class="pos3" id="ipMc"></span></div>
+
+
+        </div>
+    </div>
+</body></html>
